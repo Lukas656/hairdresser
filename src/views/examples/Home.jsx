@@ -1,5 +1,5 @@
 // Em Home.jsx
-import React, { useRef } from 'react';
+import React from 'react';
 import './home.css';
 
 function Home() {
