@@ -10,7 +10,6 @@ const Content = props => (
         <Route path="/" exact element={<Home />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-     
     </main>
   );
    

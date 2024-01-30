@@ -15,13 +15,108 @@
 
 .logomarca img{width: 30%;}
 
+.home p{
+  padding: 20px;
+}
+.section1{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 300px;
+  padding-bottom: 100px;
+}
+.texto{
+  width: 100%;
+  padding-top: 15%;
+}
+.texto strong{
+  color: #ff7300;
+  font-size: 4.2rem;
+}
+.texto p , .texto a{
+  font-size: 1.5rem;
+}
+
+.imagens{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imagens img {
+  width: 40%;
+  height: 40%;
+  border-radius: 50px;
+}
+.imagens img {
+  width: 50%;
+  filter: grayscale(100%); /* Aplica escala de cinza de 100% (preto e branco) */
+  box-sizing: border-box;
+}
+
+.section2{
+  display: block;
+}
+#tabela{
+  width: 30%;
+}
+.section2 a{
+  color: #ff7300;
+  font-size: 1.4rem;
+}
+
+
 @media (max-width: 600px) {
-    .home {height: 60vh }
-    .logomarca{height: 60vh}
-    .logomarca img {width: 60%}
+    .home {height: 80vh }
+    .logomarca{height: 100vh}
+    .logomarca img {width: 100%}
+   
+    .section1{
+      display: block;
+      margin-top: 5px;
+      margin-bottom: 10%;
+    }
+    .texto strong{
+      font-size: 2.2em;
+    }
+    .texto p , .texto a{
+      text-align: center;
+      font-size: 1em;
+    }
+    .imagens{margin-top: 50px;}
+    .imagens img {
+      width: 50%;
+      border-radius: 250px;
+    }
+    .section2{margin-top: 20%;}
+    #tabela{
+      width: 70%;
+    }
   }
 
 
-  #fotos{
-    margin-top: 3000px;
+  .footer {
+    margin-top: 50px;
+    width: 100%;
+  }
+  
+  p {
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 1px;
+  }
+  
+  ul li {
+    list-style: none;
+    margin: 15px;
+  }
+    
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .copyright {
+    margin-top: 15px;
+    text-align: center;
   }

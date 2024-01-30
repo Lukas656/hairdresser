@@ -1,15 +1,30 @@
+aside{
+    padding: 20px;
+}
 ul{
     text-align: center;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin-top: 20px;
+    margin-top: 50px;
 }
-ul button{
-    padding: 20px;
-    background-color: #FF9400;
+ul a{
+    font-size: 1.5rem;
+    padding: 5px 30px 5px 30px;
     border: 3px solid black;
+    color:  #FF9400; 
+    border-radius: 30px;
     cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #FF9400;
 }
 
-button a{color: #000000; font-size: 1.5rem;}
+ul a:hover{
+    color: gray;
+    border: 1px solid gray;
+  }
+  @media (max-width: 600px) {
+    aside{padding: 5px;}
+    ul a {font-size: 1em;}
+  }
