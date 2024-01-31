@@ -8,15 +8,12 @@ const Menu = (props) => (
   <aside>
     <nav>
       <ul>
-        
         <Link to="/agendamento">Agendamento</Link>
         <a href="#tabela">Preços</a>
         <Link to="/sobre">Sobre</Link>
       </ul>
     </nav>
   </aside>
-  <br />
-  <hr />
  
   </>
 );
