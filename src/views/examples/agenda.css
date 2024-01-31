@@ -57,6 +57,46 @@
     color: #FF9400; /* Texto laranja ao passar o mouse */
   }
 
+  .galeria {
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #logo {
+    margin-bottom: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Grid responsiva com colunas de 150px */
+    grid-gap: 15px; /* Espaço entre as imagens */
+  }
+  
+  .grid-item {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .fullscreen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Fundo preto semi-transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .fullscreen-image {
+    max-width: 90%;
+    max-height: 90%;
+  }
 
   @media (max-width: 600px) {
     .section-agenda{

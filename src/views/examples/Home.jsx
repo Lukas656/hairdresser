@@ -24,11 +24,11 @@ function Home() {
         </div>
         <div className="imagens">
           <img
-            src="https://i.ibb.co/j3xtWSn/cabelo-afro-masculino-dreads-curtos-topo-unsplash.jpg"
+            src="https://i.ibb.co/SytyZnF/71d58ec04569e421faf87f32374e7567.jpg"
             alt="exemplo 1"
           />
           <img
-            src="https://i.ibb.co/j3xtWSn/cabelo-afro-masculino-dreads-curtos-topo-unsplash.jpg"
+            src="https://i.ibb.co/yyxKmnQ/trancas-masculinas-og.jpg"
             alt="exemplo 2"
           />
           <img
@@ -36,7 +36,7 @@ function Home() {
             alt="exemplo 3"
           />
           <img
-            src="https://i.ibb.co/j3xtWSn/cabelo-afro-masculino-dreads-curtos-topo-unsplash.jpg"
+            src="https://i.ibb.co/4F62vgw/5295f3f927c8c4882acef63497f695bf.webp"
             alt="exemplo 4"
           />
         </div>
