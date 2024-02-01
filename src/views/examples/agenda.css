@@ -98,9 +98,39 @@
     max-height: 90%;
   }
 
+
+.descricao-salao{
+  margin-top: 15px;
+}
+
+.imagem-salao{
+  width: 200%;
+  height: 500px;
+}
+.apresentacao-salao{
+  width: 100%;
+  display: flex;
+
+}
+.apresentacao-salao .descricao-salao, .descricao-salao p, .creditos{
+  padding: 25px;
+  text-align: center;
+}
+h3{
+  text-align: left;
+}
+
+
   @media (max-width: 600px) {
     .section-agenda{
         margin-top: 30px;
         display: block;
+    }
+    .imagem-salao{
+      width: 100%;
+      height: 500px;
+    }
+    .apresentacao-salao{
+      display: block;
     }
   }

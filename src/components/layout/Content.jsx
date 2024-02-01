@@ -4,6 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from "../../views/examples/Home";
 import Agendamento from "../../views/examples/Agendamento";
 import Galeria from "../../views/examples/Galeria";
+import Sobre from "../../views/examples/Sobre";
 import NotFound from "../../views/examples/NotFound";
 const Content = props => (
     <main className="Content">
@@ -13,6 +14,7 @@ const Content = props => (
         <Route path="*" element={<NotFound />} />
         <Route path="/galeria" element={<Galeria />} />
         <Route path="/agendamento" element={<Agendamento />} />
+        <Route path="/sobre" element={<Sobre />} />
       </Routes>
     </main>
   );
