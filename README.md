@@ -2,6 +2,16 @@
 ## Autor
 - [@Lucas Santos](https://github.com/Lukas656)
 
+## 🛠 Habilidades
+node.js, Express, React.js 
+
+## Rodando API
+
+Após clonar o repositório rode os Seguintes comandos
+```bash
+  npm i
+  npm start
+```
 ## Screenshots
 # DESKTOP 
 ![Captura de tela 2024-02-05 203426](https://github.com/Lukas656/hairdresser/assets/72577273/dd78c5aa-a877-4585-a287-7e1048b4d01f)
@@ -15,14 +25,3 @@
 ![WhatsApp Image 2024-02-05 at 20 36 45 (1)](https://github.com/Lukas656/hairdresser/assets/72577273/66c80804-3d9e-42f3-a8b4-1ce5f00d31e7)
 ![WhatsApp Image 2024-02-05 at 20 36 46](https://github.com/Lukas656/hairdresser/assets/72577273/e462cd71-54aa-44e7-a8f5-069d6d6c13e6)
 
-## 🛠 Habilidades
-node.js, Express, React.js 
-
-
-## Rodando API
-
-Após clonar o repositório rode os Seguintes comandos
-```bash
-  npm i
-  npm start
-```
